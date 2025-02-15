@@ -178,13 +178,6 @@ ol {
   color: #545050;
 }
 
-.content__list-container {
-  block-size: 300px;
-  overflow-y: auto;
-  overflow-x: hidden; 
-  position: relative;
-}
-
 .content__card-link {
   color: inherit;
   text-decoration: none;
