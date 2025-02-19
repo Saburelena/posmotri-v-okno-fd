@@ -57,20 +57,21 @@ ol {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto auto;
   gap: 30px;
-  width: 1140px;
+  width: 100%;
+  max-width: 1140px;
+  width: 100%;
   margin: 0 auto;
-  padding: 20px 20px 29px 20px;
   grid-template-areas: 
   "result title"
   "result content__details";
   align-items: end;
+  box-sizing: border-box;
 }
 
 .result {
   grid-area: result;
   display: flex;
   flex-direction: column;
-  /*gap: 5px;*/
   justify-content: flex-end;
 }
 
@@ -87,7 +88,6 @@ ol {
   align-items: flex-start;
   gap: 40px;
   width: 100%;
-  /*padding-bottom: 5px;*/
 }
 
 .search-form__fieldset {
